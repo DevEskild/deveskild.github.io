@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.container {
+    padding: 10em;
+    width: 95%;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+.contact-form {
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 50em;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: #192024;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    max-width: 750px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    background-color: indianred;
+    margin-top: 2rem;
+}
+
+button:hover,
+button:focus {
+    background-color: #d67979;
+}
+
+.pameldingsListe {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1250px;
+    border: 1px black solid;
+    margin: 0 auto;
+}
+
+.pameldingsListe .liste {
+    width: 450px;
+    margin: 2rem;
+    height: 200px;
+    border: 1px black solid;
+    background: #369;
+}
+
+h1 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.form-group .checkboxes label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.liste {
+    margin-top: 20rem;
+}

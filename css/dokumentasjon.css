@@ -1,0 +1,11 @@
+.blokk {
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    max-width: 500px;
+    max-height: 500px;
+    background: #192024;
+    padding: 2em;
+    margin: 2em;
+}
+

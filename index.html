@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script defer src="./scripts/slideshow.js"></script>
+    <script defer src="./scripts/popups.js"></script>
+    <meta charset="utf-8">
+    <title>Hjem</title>
+</head>
+
+<body>
+    <header>
+        <div id='navbar'>
+            <ul>
+                <li><a href="./index.html">Hjem</a></li>
+                <li><a href="./pamelding.html">Påmelding</a></li>
+                <li><a href="./omoss.html">Om oss</a></li>
+                <li><a href="./dokumentasjon.html">Dokumentasjon</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <h1>Hansen Advertisement</h1>
+
+        <br>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <a class="button" data-modal-target="#modal1"><img src="./img/PcLan.png"></a>
+                <div class="text">TG! Norges størrste Lan Party!</div>
+            </div>
+            
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <a class="button" data-modal-target="#modal2"><img src="./img/JugendFest.png"></a>
+                <div class="text">Jugendfest, årets høydepunkt!</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <a class="button" data-modal-target="#modal3"><img src="./img/Landstreff.png"></a>
+                <div class="text">Landstreff 2022!</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        
+    </div>
+
+    <div class="modal" id="modal1">
+        <div class="modal-header">
+            <div class="title">Lan Party!</div>
+            <button data-close-button class="closeBtn">&times;</button>
+        </div>
+        <div class="modal-header">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam quia eum nostrum.
+            Laborum, id aut. Repellendus exercitationem iure, iusto provident maiores cum fugit sint
+            reprehenderit doloribus pariatur possimus labore dolorum ipsum ipsam aspernatur. Eius et,
+            reprehenderit consequatur nihil voluptatum commodi rerum, accusantium exercitationem, neque
+            corporis enim aut in. Praesentium iste voluptatem veritatis quisquam natus distinctio neque
+            commodi facilis magni! Quisquam tempora natus deserunt, ipsam laborum quos consequatur velit,
+            fuga nesciunt doloremque quo rerum omnis quidem voluptatem veritatis! Corrupti, aperiam?
+        </div>
+    </div>
+    <div class="modal" id="modal2">
+        <div class="modal-header">
+            <div class="title">Jugendfest!</div>
+            <button data-close-button class class="closeBtn">&times;</button>
+        </div>
+        <div class="modal-header">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam quia eum nostrum.
+            Laborum, id aut. Repellendus exercitationem iure, iusto provident maiores cum fugit sint
+            reprehenderit doloribus pariatur possimus labore dolorum ipsum ipsam aspernatur. Eius et,
+            reprehenderit consequatur nihil voluptatum commodi rerum, accusantium exercitationem, neque
+            corporis enim aut in. Praesentium iste voluptatem veritatis quisquam natus distinctio neque
+            commodi facilis magni! Quisquam tempora natus deserunt, ipsam laborum quos consequatur velit,
+            fuga nesciunt doloremque quo rerum omnis quidem voluptatem veritatis! Corrupti, aperiam?
+        </div>
+    </div>
+    <div class="modal" id="modal3">
+        <div class="modal-header">
+            <div class="title">Landstreff 2022!</div>
+            <button data-close-button class class="closeBtn">&times;</button>
+        </div>
+        <div class="modal-header">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam quia eum nostrum.
+            Laborum, id aut. Repellendus exercitationem iure, iusto provident maiores cum fugit sint
+            reprehenderit doloribus pariatur possimus labore dolorum ipsum ipsam aspernatur. Eius et,
+            reprehenderit consequatur nihil voluptatum commodi rerum, accusantium exercitationem, neque
+            corporis enim aut in. Praesentium iste voluptatem veritatis quisquam natus distinctio neque
+            commodi facilis magni! Quisquam tempora natus deserunt, ipsam laborum quos consequatur velit,
+            fuga nesciunt doloremque quo rerum omnis quidem voluptatem veritatis! Corrupti, aperiam?
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+    <h3>Trykk på bildene for mer informajon!</h3>
+</div>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

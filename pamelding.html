@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/pamelding.css">
+    <script defer src="./scripts/pamelding.js"></script>
+    <meta charset="utf-8">
+    <title>Påmelding</title>
+</head>
+
+<body>
+    <header>
+        <div id='navbar'>
+            <ul>
+                <li><a href="./index.html">Hjem</a></li>
+                <li><a href="./pamelding.html">Påmelding</a></li>
+                <li><a href="./omoss.html">Om oss</a></li>
+                <li><a href="./dokumentasjon.html">Dokumentasjon</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <h1>Påmelding</h1>
+
+        <section>
+            <div class="contact-form">
+                <form id="myfrm" onsubmit="return false">
+
+                    <div class="container">
+                        <div class="form-group">
+                            <label for="firstName">Fornavn</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="Ola">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="surname">Etternavn</label>
+                            <input type="text" id="surname" name="surname" placeholder="Normann">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Ola.Normann@Norge.no">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="age">Alder</label>
+                            <input type="text" id="age" name="email" placeholder="21">
+                        </div>
+                        <br>
+                        <h2>Arragement jeg ønsker å melde meg på:</h2>
+
+                        <div class="form-group checkboxes">
+                            <div class="checkboxes">
+                                <label for="landstreff">Landstreff</label>
+                                <input type="checkbox" id="landstreff" name="landstreff">
+                                <br>
+                                <label for="lanparty">Lan Party</label>
+                                <input type="checkbox" id="lanparty" name="lanparty">
+                                <br>
+                                <label for="jugnedfest">Jugnedfest</label>
+                                <input type="checkbox" id="jugnedfest" name="jugnedfest">
+                            </div>
+                        </div>
+
+
+                        <button onclick="pamelding()">Meld deg på!</button>
+
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="liste">
+            <h1 class="dTitel">Deltakere</h1>
+            <div class="pameldingsListe">
+                <div class="liste Landstreff">
+                    <h2>Landstreff</h2>
+                    <p id="landtreffDeltakere"></p>
+                </div>
+                <div class="liste Party">
+                    <h2>Lan Party</h2>
+                    <p id="lanPartyDeltakere"></p>
+                </div>
+                <div class="liste Jugendfest">
+                    <h2>Jugendfest</h2>
+                    <p id="jugendFestDeltakere"></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</script>
+
+</html>

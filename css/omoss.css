@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+h3 {
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.box {
+    margin: 2rem;
+    border-radius: 15px 50px;
+    background: #73AD21;
+    padding: 20px;
+}
+
+h4 {
+    padding: 0.5rem
+}
+
+.info {
+    display: flex;
+    flex: 2
+}
+
+.kontaktInfo {
+    flex: 1;
+}
+
