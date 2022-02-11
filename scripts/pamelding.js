@@ -51,10 +51,6 @@ function leggTil(navn, etternavn, alder) {
             alder: alder
         })
     }
-    else {
-        alert("Vennligs velg et arragement du ønsker å melde deg på!")
-        throw new Error("Ingen arragement")
-    }
     listeUt();
 }
 
